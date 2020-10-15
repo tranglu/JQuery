@@ -1,0 +1,43 @@
+*{
+margin:0;padding:0;
+}
+.mot-khoi>p{
+	background-color:#dfe6e9;
+	padding: 10px 12px;
+}
+.mot-khoi>h3{
+	background-color:#00b894;
+	color: white;
+	text-align: left;
+	padding: 10px 12px;
+}
+.mot-khoi>h3:hover{
+	background: url
+}
+.mau-vang{
+	background-color:yellow !important;
+	color: black !important;
+}
+body{
+	position: relative;
+}
+i{
+	color: gray;
+	font-size: 40px;
+	font-weight: bold;
+	z-index: 1;
+	position: absolute;
+	bottom: 5%;
+	right: 3%;
+	position: fixed;
+}
+.hinh-anh{
+	width: 100%;
+	height:100%;
+}
+/*img{
+	width: 100%;
+	height: 100%;
+	margin:5px 0px;
+	display: inline-block;
+}*/

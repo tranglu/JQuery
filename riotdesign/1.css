@@ -1,0 +1,226 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: proxima-nova,sans-serif;
+}
+
+.menu{
+	background-color: #ffe0c6;
+}
+.menu1{
+	font-size: 47px;
+	height: 500px;
+	position: relative;
+}
+.menu2{
+	font-size: 30px;
+	font-weight: bold;
+	height: 500px;
+	position: relative;
+}
+.navbar-light .menu2 .navbar-nav .nav-link{
+	color: #f25f5f;
+	border-bottom: 1px solid rgba(54,52,177,.5);
+	line-height: 50px;
+}
+
+
+
+.col-5 ul{
+	position: absolute;
+	bottom: 5%;
+	left: : 30%;
+}
+
+.col-7 ul{
+	position: absolute;
+	bottom: 30%;
+	right: 30%;
+}
+
+
+.banner{
+	height: 1300px;
+	position: relative;
+	display: block;
+	overflow: hidden;
+} 
+.banner>#video_background{
+	 z-index: 1;
+	position: absolute; 
+	top:0;
+	left: 0;
+}
+
+.banner>.layer2{
+	display: block;
+	background-color: #7e74de7a;
+	z-index: 2;
+	position: absolute;
+	top:0;
+	left: 0;
+	color: white;
+	
+}
+.layer2 .khucduoi{
+	margin-top: 100px;
+	display: block;
+}
+.layer2 p.chuto{
+	font-size: 120px;
+	font-weight: bold;
+}
+.layer2 small{
+	width: 70px;
+	display: block;
+	margin:auto;
+}
+.layer2 small .chudoc{
+	width: 30px;
+	transform: rotate(90deg);
+	font-size: 30px;
+}
+.layer2 small img{
+	width: 40px;
+	height: 80px;
+}
+.gitmeo{
+	width: 200px;
+	height: 200px;
+}
+/*.motkhoi{
+	background-image: url("images/1.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 650px;
+	display: block;
+	background-position: cover;
+	background-attachment: fixed;
+	position: relative;
+
+}
+ .motkhoi p{
+	font-size:500px;
+	padding-top: 50px;
+	padding-left: 150px;
+	color: white;
+	display: block;
+} */
+
+.motkhoi{
+	
+	width: 100%;
+	height: 650px;
+	display: block;
+	position: relative;
+
+}
+.motkhoi>.layer1{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height: 600px;
+	width: 100%;
+}
+.hinhnen1{
+	background-image: url("images/1.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 650px;
+	display: block;
+	background-position: cover;
+ background-attachment: fixed;
+}
+.so p{
+	font-size:350px;
+	padding-top: 50px;
+	padding-left: 50px;
+	color: white;
+	display: block;
+} 
+.trang{
+	background-color: white;
+}
+.motkhoi>.layer2{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	height: 600px;
+	width: 100%;
+}
+.nut{
+	margin-top: 275px;
+	height: 100px;
+	text-align: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+.tren,.duoi{
+	height: 275px;
+	background-color: white;
+}
+.giua{
+ height: 100px;
+ background-color: transparent;
+ overflow: hidden;
+}
+.muiten{
+margin-top: 5px;
+	margin-left: 30px;
+	display: block;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+.hinhnen2{
+	background-image: url("images/2.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 650px;
+	display: block;
+	background-position: cover;
+	background-attachment: fixed;
+}
+.hinhnen3{
+	background-image: url("images/3.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 650px;
+	display: block;
+	background-position: cover;
+	background-attachment: fixed;
+}
+.hinhnen4{
+	background-image: url("images/4.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 650px;
+	display: block;
+	background-position: cover;
+	background-attachment: fixed;
+}
+.chuxanh{
+	color: #3634B1;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 50px;
+	display: block;
+	padding-top: 20px;
+}
+.chuxam{
+	color: #696982;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* .motkhoi.khoi2{
+	background-image: url("images/2.jpg");
+}
+.motkhoi.khoi3{
+	background-image: url("images/3.jpg");
+}
+.motkhoi.khoi4{
+	background-image: url("images/4.jpg");
+} */

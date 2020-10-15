@@ -1,0 +1,10 @@
+*{
+margin:0;padding:0;
+}
+.dang-ky,.dang-nhap{
+	position: fixed;
+	top:100px;
+	transform: translateX(-50%);
+	
+
+}
