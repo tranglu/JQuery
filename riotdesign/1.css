@@ -2,20 +2,51 @@ html,body{
 	width: 100%;
 	height: 100%;
 	font-family: proxima-nova,sans-serif;
+	position: relative;
 }
-
+video#video_background{
+	z-index: 1;
+	/*position: absolute;*/
+	/*top: 0;
+	left: 0;*/
+	
+}
+.noi-dung{
+	z-index: 3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.noi-dung-chinh{
+	background: white;
+	overflow: hidden;
+}
 .menu{
 	background-color: #ffe0c6;
+	width: 100%;
+	height: 100%;
+	visibility:hidden;
+	overflow: hidden;
+	z-index: 5;
+	position: relative;
+}
+button.btn.btn-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
 }
 .menu1{
 	font-size: 47px;
-	height: 500px;
+	height: 600px;
 	position: relative;
 }
 .menu2{
 	font-size: 30px;
 	font-weight: bold;
-	height: 500px;
+	height:600px;
 	position: relative;
 }
 .navbar-light .menu2 .navbar-nav .nav-link{
@@ -24,8 +55,44 @@ html,body{
 	line-height: 50px;
 }
 
+.dot{
+	border: 1px white solid;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-indent: -9999px;
+	transition: 0.4s;
+	cursor: pointer;
+	position: relative;
+	top:100px;
+}
 
-
+img.bom {
+    position: absolute;
+    top: -51px;
+    left: 12px;
+    width: 40px;
+    opacity: 0;
+}
+.dot:hover{
+	background: white;
+	cursor: not-allowed;
+}
+.dot:hover .bom{
+	opacity: 1;
+}
+nav.navbar{
+	position: relative;
+	margin-top:0;
+}
+button.navbar-toggler{
+	position: absolute;
+	background-color: white;
+	right: 10px;
+	top: 20px;
+	z-index: 3;
+}
 .col-5 ul{
 	position: absolute;
 	bottom: 5%;
@@ -45,7 +112,7 @@ html,body{
 	display: block;
 	overflow: hidden;
 } 
-.banner>#video_background{
+.banner>.layer1{
 	 z-index: 1;
 	position: absolute; 
 	top:0;
@@ -54,7 +121,7 @@ html,body{
 
 .banner>.layer2{
 	display: block;
-	background-color: #7e74de7a;
+	background-color: #1d07f291;
 	z-index: 2;
 	position: absolute;
 	top:0;
@@ -74,11 +141,13 @@ html,body{
 	width: 70px;
 	display: block;
 	margin:auto;
+	cursor: pointer;
 }
 .layer2 small .chudoc{
 	width: 30px;
 	transform: rotate(90deg);
 	font-size: 30px;
+
 }
 .layer2 small img{
 	width: 40px;
@@ -88,24 +157,7 @@ html,body{
 	width: 200px;
 	height: 200px;
 }
-/*.motkhoi{
-	background-image: url("images/1.jpg");
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 650px;
-	display: block;
-	background-position: cover;
-	background-attachment: fixed;
-	position: relative;
 
-}
- .motkhoi p{
-	font-size:500px;
-	padding-top: 50px;
-	padding-left: 150px;
-	color: white;
-	display: block;
-} */
 
 .motkhoi{
 	
@@ -113,7 +165,7 @@ html,body{
 	height: 650px;
 	display: block;
 	position: relative;
-
+	overflow: hidden;
 }
 .motkhoi>.layer1{
 	position: absolute;
@@ -130,17 +182,25 @@ html,body{
 	height: 650px;
 	display: block;
 	background-position: cover;
- background-attachment: fixed;
-}
+ 	background-attachment: fixed;
+ 	position: relative;
+ 	/*left:-200px;*/
+ 	transform: translate3d(0px, 0px, 0px) scale(1);
+ 	z-index: 4;
+	}
+
 .so p{
 	font-size:350px;
 	padding-top: 50px;
 	padding-left: 50px;
 	color: white;
-	display: block;
+	display: block;	
+	z-index: 4;
+	
 } 
 .trang{
 	background-color: white;
+
 }
 .motkhoi>.layer2{
 	position: absolute;
@@ -214,7 +274,20 @@ margin-top: 5px;
 	font-size: 16px;
 	font-weight: bold;
 }
-
+.footer{
+	height: 1000px;
+}
+.zo0m{
+	transform: scale(1.25);
+}
+.xuat-hien{
+	opacity: 1;
+	visibility: visible;
+}
+.giau-di{
+	opacity: 0;
+	visibility: hidden;
+}
 /* .motkhoi.khoi2{
 	background-image: url("images/2.jpg");
 }
