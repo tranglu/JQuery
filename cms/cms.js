@@ -4,8 +4,8 @@ $(function() {
 	//nút i
     $(window).scroll(function(event) {
         var viTri = $('html,body').scrollTop();
-        var viTriTinMoi = $('.tin-moi').offset().top;
-        if (viTri > viTriTinMoi) {
+        // var viTriTinMoi = $('.tin-moi').offset().top;
+        if (viTri > 400) {
             $('i.scroll-top').addClass('xuat-hien');
         } else {
             $('i.scroll-top').removeClass('xuat-hien');
