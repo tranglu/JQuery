@@ -78,6 +78,7 @@ img.bom {
 .dot:hover{
 	background: white;
 	cursor: not-allowed;
+
 }
 .dot:hover .bom{
 	opacity: 1;
@@ -111,6 +112,7 @@ button.navbar-toggler{
 	position: relative;
 	display: block;
 	overflow: hidden;
+	cursor: context-menu;
 } 
 .banner>.layer1{
 	 z-index: 1;

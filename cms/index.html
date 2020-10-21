@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>cms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One" rel="stylesheet">
+    <!-- hết font -->
+    <!--  fontawesome -->
+    <link rel="stylesheet" type="text/css" href="../vendor/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../vendor/fontawesome/css/all.css">
+    <!-- hết fontawesome -->
+    <!-- css -->
+    <link rel="stylesheet" href="../vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="1.css">
+    <!-- hết css -->
+    <!-- Jquery -->
+    <script type="text/javascript" src="../vendor/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- tốc độ của chuyển động -->
+    <link rel="shorcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- hết Jquery -->
+</head>
+
+<body>
+    <!--   bắt đầu header -->
+    <div class="header bg-light-gray pt-3">
+        <div class="container h-100">
+            <div class="icon">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="language">
+                <img src="images/flags/us.svg" alt="">
+                <span class="mx-2">ENGLISH</span>
+            </div>
+        </div>
+    </div>
+    <!-- hết header -->
+    <!-- bắt đầu menu -->
+    <div class="menu my-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand logo" href="index.php">
+                    <span>Bot</span>ble</a>
+                <button class="navbar-toggler hidden-sm-up float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://codecanyon.net">Mua ngay</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="new.html">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galleries.html">Thư viện ảnh</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-search close-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- hết menu -->
+    <!-- khối 1 -->
+    <div class="tin-noi-bat bg-light-gray py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 pb-2">
+                    <div class="khoi-anh">
+                        <img class="img-fluid" src="storage/news/1476890036-hero05-565x375.jpg" alt="">
+                        <a class="bg-overlay"></a>
+                        <div class="layer3">
+                            <a href="">ĐI TÌM HỒI ỨC TUỔI THƠ</a>
+                            <p>
+                                <i class="fas fa-cube mx-2"></i>
+                                <span><i class="far fa-clock px-1"></i>Aug 02 2016</span>
+                            </P>
+                        </div>
+                    </div>
+                </div><!-- hết khối ảnh -->
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-6 mb-2">
+                            <div class="khoi-anh">
+                                <a class="" href="">
+                                    <img class="layer1 img-fluid" src="storage/news/7717834982-bbd7e12b8c-b-660x330-540x360.jpg" alt="">
+                                    <span class="bg-overlay"></span>
+                                    <p class="layer3">Thế giới động vật muôn màu</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="khoi-anh">
+                                <a class="" href="">
+                                    <img class="layer1 img-fluid" src="storage/news/7717834982-bbd7e12b8c-b-660x330-540x360.jpg" alt="">
+                                    <span class="bg-overlay"></span>
+                                    <p class="layer3">Thế giới động vật muôn màu</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <div class="khoi-anh">
+                                <a class="" href="">
+                                    <img class="layer1 img-fluid" src="storage/news/7717834982-bbd7e12b8c-b-660x330-540x360.jpg" alt="">
+                                    <span class="bg-overlay"></span>
+                                    <p class="layer3">Thế giới động vật muôn màu</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                            <div class="khoi-anh">
+                                <a class="" href="">
+                                    <img class="layer1 img-fluid" src="storage/news/7717834982-bbd7e12b8c-b-660x330-540x360.jpg" alt="">
+                                    <span class="bg-overlay"></span>
+                                    <p class="layer3">Thế giới động vật muôn màu</p>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- hết khối ảnh -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hết khối 1 -->
+    <!-- khối 2 -->
+    <div class="tin-moi my-5">
+        <div class="container">
+            <div class="tieu-de">
+                <h3>CÓ GÌ MỚI?</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-xl-6 my-2">
+                            <div class="mot-tin">
+                                <div class="tren">
+                                    <img class="layer1 img-fluid" src="storage/news/1476890036-hero05-565x375.jpg" alt="">
+                                    <a href="">
+                                        <div class="bg-overlay"></div>
+                                    </a>
+                                    <div class="lop3">AUG 02 2016</div>
+                                </div>
+                                <div class="trichdan mt-5">
+                                    <a href="">
+                                        <h5>Đi tìm hồi ức tuổi thơ</h5>
+                                    </a>
+                                    <p>Đi tìm hồi ức tuổi thơ...</p>
+                                    <a class="mau-do" href="">ĐỌC THÊM</a>
+                                </div>
+                            </div><!-- hetmottin -->
+                        </div>
+                        <div class="col-xl-6 p-0">
+                            <div class="row">
+                                <div class="tin-nho col-12 my-2">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="hinh">
+                                                <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                                <a href="">
+                                                    <div class="bg-overlay"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 p-0">
+                                            <a href="">
+                                                <p class="m-0">Thế giới động vật muôn màu</p>
+                                            </a>
+                                            <small>Ngày tháng năm</small>
+                                        </div>
+                                    </div>
+                                </div><!-- hetmottin nhỏ -->
+                                <div class="tin-nho col-12 my-2">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="hinh">
+                                                <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                                <a href="">
+                                                    <div class="bg-overlay"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 p-0">
+                                            <a href="">
+                                                <p class="m-0">Thế giới động vật muôn màu</p>
+                                            </a>
+                                            <small>Ngày tháng năm</small>
+                                        </div>
+                                    </div>
+                                </div><!-- hetmottin nhỏ -->
+                                <div class="tin-nho col-12 my-2">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="hinh">
+                                                <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                                <a href="">
+                                                    <div class="bg-overlay"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 p-0">
+                                            <a href="">
+                                                <p class="m-0">Thế giới động vật muôn màu</p>
+                                            </a>
+                                            <small>Ngày tháng năm</small>
+                                        </div>
+                                    </div>
+                                </div><!-- hetmottin nhỏ -->
+                                <div class="tin-nho col-12 my-2">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="hinh">
+                                                <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                                <a href="">
+                                                    <div class="bg-overlay"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 p-0">
+                                            <a href="">
+                                                <p class="m-0">Thế giới động vật muôn màu</p>
+                                            </a>
+                                            <small>Ngày tháng năm</small>
+                                        </div>
+                                    </div>
+                                </div><!-- hetmottin nhỏ -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- hết cột 9 -->
+                <div class="col-lg-3 border border-secondary text-center">
+                    <h5 class="bg-light py-2">BÀI VIẾT NỔI BẬT</h5>
+                    <div class="row">
+                        <div class="tin-nho col-12 py-2 border-bottom border-top border-secondary">
+                            <div class="row">
+                                <div class="col-4 p-1">
+                                    <div class="hinh">
+                                        <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                        <a href="">
+                                            <div class="lop2"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-8 pl-2">
+                                    <a href="">
+                                        <small class="m-0">Thế giới động vật muôn màu</small>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- hetmottin nhỏ -->
+                        <div class="tin-nho col-12 py-2 border-bottom border-secondary">
+                            <div class="row">
+                                <div class="col-4 p-1">
+                                    <div class="hinh">
+                                        <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                        <a href="">
+                                            <div class="lop2"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-8 pl-2">
+                                    <a href="">
+                                        <small class="m-0">Thế giới động vật muôn màu</small>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- hetmottin nhỏ -->
+                        <div class="tin-nho col-12 py-2 border-bottom border-secondary">
+                            <div class="row">
+                                <div class="col-4 p-1">
+                                    <div class="hinh">
+                                        <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                        <a href="">
+                                            <div class="lop2"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-8 pl-2">
+                                    <a href="">
+                                        <small class="m-0">Thế giới động vật muôn màu</small>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- hetmottin nhỏ -->
+                        <div class="tin-nho col-12 py-2 border-bottom border-secondary">
+                            <div class="row">
+                                <div class="col-4 p-1">
+                                    <div class="hinh">
+                                        <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                        <a href="">
+                                            <div class="lop2"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-8 pl-2">
+                                    <a href="">
+                                        <small class="m-0">Thế giới động vật muôn màu</small>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- hetmottin nhỏ -->
+                        <div class="tin-nho col-12 py-2 border-bottom border-secondary">
+                            <div class="row">
+                                <div class="col-4 p-1">
+                                    <div class="hinh">
+                                        <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                        <a href="">
+                                            <div class="lop2"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-8 pl-2">
+                                    <a href="">
+                                        <small class="m-0">Thế giới động vật muôn màu</small>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- hetmottin nhỏ -->
+                    </div>
+                    <!-- hết cột 3 -->
+                </div>
+            </div>
+        </div>
+        <!-- hết khối 2 -->
+        <!-- khối 3 -->
+        <div class="best-for-you bg-light-gray py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="tieu-de">
+                            <h3>BEST FOR YOU</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="mot-tin">
+                                    <div class="tren">
+                                        <img class="layer1 img-fluid" src="storage/news/1476890036-hero05-565x375.jpg" alt="">
+                                        <a href="">
+                                            <div class="bg-overlay"></div>
+                                        </a>
+                                        <div class="lop3">Ngày tháng năm</div>
+                                    </div>
+                                    <div class="trichdan mt-5">
+                                        <a href="">
+                                            <h5>Đi tìm hồi ức tuổi thơ</h5>
+                                        </a>
+                                        <p>Đi tìm hồi ức tuổi thơ...</p>
+                                    </div>
+                                </div><!-- hết tin lớn -->
+                                <div class="tin-nho col-12 my-4">
+                                    <div class="row">
+                                        <div class="col-4 p-0 pr-1">
+                                            <div class="hinh">
+                                                <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                                <a href="">
+                                                    <div class="bg-overlay"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pl-2">
+                                            <a href="">
+                                                <p class="m-0">Thế giới động vật muôn màu</p>
+                                            </a>
+                                            <small>Ngày tháng năm</small>
+                                        </div>
+                                    </div>
+                                </div><!-- hetmottin nhỏ -->
+                                <div class="tin-nho col-12 my-4">
+                                    <div class="row">
+                                        <div class="col-4 p-0 pr-1">
+                                            <div class="hinh">
+                                                <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                                <a href="">
+                                                    <div class="bg-overlay"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pl-2">
+                                            <a href="">
+                                                <p class="m-0">Thế giới động vật muôn màu</p>
+                                            </a>
+                                            <small>Ngày tháng năm</small>
+                                        </div>
+                                    </div>
+                                </div><!-- hetmottin nhỏ -->
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="mot-tin">
+                                    <div class="tren">
+                                        <img class="layer1 img-fluid" src="storage/news/1476890036-hero05-565x375.jpg" alt="">
+                                        <a href="">
+                                            <div class="bg-overlay"></div>
+                                        </a>
+                                        <div class="lop3">Ngày tháng năm</div>
+                                    </div>
+                                    <div class="trichdan mt-5">
+                                        <a href="">
+                                            <h5>Đi tìm hồi ức tuổi thơ</h5>
+                                        </a>
+                                        <p>Đi tìm hồi ức tuổi thơ...</p>
+                                    </div>
+                                </div><!-- hết tin lớn -->
+                                <div class="tin-nho col-12 my-4">
+                                    <div class="row">
+                                        <div class="col-4 p-0 pr-1">
+                                            <div class="hinh">
+                                                <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                                <a href="">
+                                                    <div class="bg-overlay"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pl-2">
+                                            <a href="">
+                                                <p class="m-0">Thế giới động vật muôn màu</p>
+                                            </a>
+                                            <small>Ngày tháng năm</small>
+                                        </div>
+                                    </div>
+                                </div><!-- hetmottin nhỏ -->
+                                <div class="tin-nho col-12 my-4">
+                                    <div class="row">
+                                        <div class="col-4 p-0 pr-1">
+                                            <div class="hinh">
+                                                <img class="img-fluid w-100" src="storage/news/1476890031-hero02-540x360.jpg" alt="">
+                                                <a href="">
+                                                    <div class="bg-overlay"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 pl-2">
+                                            <a href="">
+                                                <p class="m-0">Thế giới động vật muôn màu</p>
+                                            </a>
+                                            <small>Ngày tháng năm</small>
+                                        </div>
+                                    </div>
+                                </div><!-- hetmottin nhỏ -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="tag mb-5">
+                            <div class="tieu-de">
+                                <h3>Thẻ</h3>
+                            </div>
+                            <a href="">Sự kiện</a>
+                            <a href="">Tải về</a>
+                            <a href="">Nổi bật</a>
+                        </div>
+                        <div class="chuyen-muc-noi-bat">
+                            <div class="tieu-de">
+                                <h3>Sự kiện nổi bật</h3>
+                            </div>
+                            <ul class="list">
+                                <li><a href="">Business</a></li>
+                                <li><a href="">Events</a></li>
+                                <li><a href="">New & Updates</a></li>
+                                <li><a href="">Poftfolio</a></li>
+                                <li><a href="">Projects</a></li>
+                                <li><a href="">Resources</a></li>
+                            </ul>
+                        </div>
+                        <div class="mang-xa-hoi">
+                            <div class="tieu-de mb-3">
+                                <h3>Mạng xã hội</h3>
+                            </div>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-github-square"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- hết khối 3 -->
+        <!-- khối 4 -->
+        <div class="thu-vien-anh">
+            <div class="container">
+                <div class="tieu-de my-5">
+                    <h3>THƯ VIỆN ẢNH</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="khoi-hinh">
+                            <a href="">
+                                <img src="storage/galleries/1476513493-world-of-tanks-football-event-1280x720-540x360.jpg" alt="">
+                            </a>
+                            <div class="noi-dung-hinh">
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="khoi-hinh">
+                            <a href="">
+                                <img class="img-fluid" src="storage/galleries/1476521053-volkswagen-id-paris-motor-show-4k-1280x720-540x360.jpg" alt="">
+                            </a>
+                            <div class="noi-dung-hinh">
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="khoi-hinh">
+                            <a href="">
+                                <img class="img-fluid" src="storage/galleries/1476513483-misty-mountains-1280x720-540x360.jpg" alt="">
+                            </a>
+                            <div class="noi-dung-hinh">
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="khoi-hinh">
+                            <a href="">
+                                <img src="storage/galleries/1476513488-spectacular-sunrise-4k-1280x720-540x360.jpg" alt="">
+                            </a>
+                            <div class="noi-dung-hinh">
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="khoi-hinh">
+                            <a href="">
+                                <img class="img-fluid" src="storage/galleries/1476520418-supergirl-season-2-1280x720-540x360.jpg" alt="">
+                            </a>
+                            <div class="noi-dung-hinh">
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="khoi-hinh">
+                            <a href="">
+                                <img class="img-fluid" src="storage/galleries/1476520418-supergirl-season-2-1280x720-540x360.jpg" alt="">
+                            </a>
+                            <div class="noi-dung-hinh">
+                                <p>Lorem ipsum</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- hết khối 4 -->
+        <!-- khối 5 -->
+        <footer class="py-5">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="clearfix">
+                            <div class="col-4 float-left p-1">
+                                <img class="img-fluid hinh-tron" src="images/men.jpg" alt="">
+                            </div>
+                            <div class="col-8 float-left">
+                                <p class="mb-0">BOTBLE TECHNOLOGIES</p>
+                                <small>Một nhóm trẻ tại Việt Nam</small>
+                            </div>
+                        </div>
+                        <div class="">
+                            <i class="fas fa-home mau-do"></i> <small class="m-2">Quận Gò Vấp, TP. Hồ Chí Minh, Việt Nam</small></br>
+                            <i class="fas fa-globe-americas mau-do"></i><span class="m-2"><a href="https://botble.com/">https://botble.com/</a></span></br>
+                            <i class="fas fa-envelope mau-do"></i><span class="m-2"><a href="https://botble.com/">botble.cms@gmail.com</a></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="tieu-de">
+                            <h3>BÀI VIẾT NỔI BẬT</h3>
+                        </div>
+                        <ul class="list">
+                            <li><a href="">Đi tìm hồi ức tuổi thơ</a></li>
+                            <li><a href="">Thế giới động vật muôn màu</a></li>
+                            <li><a href="">Hành trình tìm kiếm sự khác biệt</a></li>
+                            <li><a href="">Cuộc sống tuổi 30</a></li>
+                            <li><a href="">Sản phẩm trí tuệ Việt Nam</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="tieu-de">
+                            <h3>WEBSITE ƯA THÍCH</h3>
+                        </div>
+                        <ul class="list">
+                            <li><a href="">Speckyboy Magazine</a></li>
+                            <li><a href="">Tympanus-Codrops</a></li>
+                            <li><a href="">Kipalog Blog</a></li>
+                            <li><a href="">SitePoint</a></li>
+                            <li><a href="">CreativeBloq</a></li>
+                            <li><a href="">Techtalk</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="tieu-de">
+                            <h3>LIÊN KẾT</h3>
+                        </div>
+                        <ul class="list">
+                            <li><a href="">Trang chủ</a></li>
+                            <li><a href="">Mua ngay</a></li>
+                            <li><a href="">Tin tức</a></li>
+                            <li><a href="">Thư viện ảnh</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- hết khối 5 -->
+        <i class="fas fa-arrow-circle-up mau-do scroll-top"></i>
+        <!-- js -->
+        <script type="text/javascript" src="cms.js"></script>
+        <!-- hết js load cuối cùng, tránh lỗi -->
+</body>
+
+</html>
